@@ -240,7 +240,7 @@
     padding: 30px 0;
     position: relative;
     margin-top: 4rem;
-    z-index: -2;
+    z-index: 2;
 }
 .banner::after {
     content: "";
@@ -254,8 +254,8 @@
     background: rgba(0,0,0,0.4);
     z-index: -1;
 }
-.banner h1, .banner p, .banner a {
-    z-index: 4;
+.banner a {
+    background-color: #e24a45;
 }
 footer .about-links {
     justify-self: center;
